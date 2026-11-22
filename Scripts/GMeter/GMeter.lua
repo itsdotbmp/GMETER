@@ -44,6 +44,11 @@ local SkinUtils    = require("SkinUtils")
 local dxgui        = require("dxgui")
 local lfs          = require("lfs")
 
+
+-- Bump on every release, and tag the GitHub release to match. Printed to
+-- GMeter.log on load so a bug report can name the build it came from.
+local VERSION = "1.0.0"
+
 -- Callback table handed back to the loader at the end of this file.
 local moduleTable = {}
 
@@ -896,6 +901,6 @@ moduleTable.onSimulationFrame = onSimulationFrame
 moduleTable.onMissionLoadEnd  = onMissionLoadEnd
 moduleTable.onSimulationStop  = onSimulationStop
 
-logLine("body built, handing callbacks to the loader")
+logLine("GMETER " .. VERSION .. " built, handing callbacks to the loader")
 
 return moduleTable
