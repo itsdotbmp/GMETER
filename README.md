@@ -21,14 +21,11 @@ The bar is anchored around the 1 G mark as thats the "normal" point. Going in ei
 A fast pull reads high, then settles back into the true value as you hold it. This deliberately represents the effect of increased effects of a sudden onset of G force.  
   
 ## Examples
+|             Hard pull              |              Smooth pull               |
+| :--------------------------------: | :------------------------------------: |
+| ![Hard pull](media/pull-hard.webp) | ![Smooth pull](media/pull-smooth.webp) |
 
-A hard pull. Note that it spikes past where it settles, and briefly reaches the limit colour on a pull that settles well below the ceiling. That is the onset response.
-
-![Hard pull](media/pull-hard.webp)
-
-The same G, pulled smoothly over a longer period of time. It never reaches the limit colour and comes back without dipping.
-
-![Smooth pull](media/pull-smooth.webp)
+Both pulls end up at the same G. The hard one spikes past where it settles and briefly reaches the limit colour. That is the onset response. The smooth one gets there over a longer period of time, never reaches the limit colour, and comes back without dipping.
 
 ## Installation
 
@@ -71,7 +68,7 @@ If the colours are not using the ones you changed it to, then you may have misse
 ## Licence and stuff
 No warranty, express or implied. It is a script that draws a rectangle, but it runs on your machine. If it breaks something, that is on you. Read the source to figure out how it works. Report bugs on github.
 
-GMETER is released under the GNU General Public License v3.0 only. See LICENSE.
+GMETER is released under the GNU General Public License v3.0 only. See [LICENSE](LICENSE.md).
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details. Use it at your own risk.
 
