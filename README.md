@@ -24,11 +24,11 @@ A fast pull reads high, then settles back into the true value as you hold it. Th
 
 A hard pull. Note that it spikes past where it settles, and briefly reaches the limit colour on a pull that settles well below the ceiling. That is the onset response.
 
-![Hard pull](media/pull-hard.gif)
+![Hard pull](media/pull-hard.webp)
 
 The same G, pulled smoothly over a longer period of time. It never reaches the limit colour and comes back without dipping.
 
-![Smooth pull](media/pull-smooth.gif)
+![Smooth pull](media/pull-smooth.webp)
 
 ## Installation
 
