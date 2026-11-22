@@ -1,3 +1,7 @@
+Published by dotbmp on GitHub and DCS User Files. GitHub is the authoritative copy. You can find the latest version, change notes and bug reports live there. Anywhere else is not offical.   
+  
+Any bug reports or problems should be reported on the github at : https://github.com/itsdotbmp/GMETER
+
 # GMETER
   
 GMETER is a small Lua script for DCS World that draws an on-screen bar showing G force acting on your body.  
@@ -20,12 +24,7 @@ The bar is anchored around the 1 G mark as thats the "normal" point. Going in ei
   
 A fast pull reads high, then settles back into the true value as you hold it. This deliberately represents the effect of increased effects of a sudden onset of G force.  
   
-## Examples
-|             Hard pull              |              Smooth pull               |
-| :--------------------------------: | :------------------------------------: |
-| ![Hard pull](media/pull-hard.webp) | ![Smooth pull](media/pull-smooth.webp) |
 
-Both pulls end up at the same G. The hard one spikes past where it settles and briefly reaches the limit colour. That is the onset response. The smooth one gets there over a longer period of time, never reaches the limit colour, and comes back without dipping.
 
 ## Installation
 
