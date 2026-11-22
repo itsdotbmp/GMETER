@@ -1,0 +1,258 @@
+-- Copyright (C) 2026 dotbmp
+-- SPDX-License-Identifier: GPL-3.0-only
+-- Part of GMETER. See LICENSE for the full terms.
+
+-- GMeterWindow.dlg
+-- Install to: Saved Games/DCS/Scripts/GMeter/GMeterWindow.dlg
+--
+-- Five elements. GMeter.lua sizes, positions and colours all of them at
+-- runtime, so every bound and colour here is a dead starting value. Change
+-- appearance in the layout block of Config/GMeterConfig.lua, not here.
+--
+-- This file is structural only: it declares that FillUp, FillDown, Cap,
+-- ZeroMark and Tick exist and what type they are. Renaming any of them
+-- breaks the lookup in GMeter.lua.
+--
+-- Structure follows Mods/tech/Supercarrier/PLATCameraUI/FLOLS.dlg: Static
+-- elements with a staticSkin and a nine-slot bkg.
+
+dialog = {
+	["children"] = {
+		["FillUp"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = { ["h"] = 34, ["w"] = 14, ["x"] = 12, ["y"] = 120 },
+				["enabled"] = true,
+				["pivotPoint"] = { ["x"] = 0, ["y"] = 0 },
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = { ["bottom"] = 0 },
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x4ad9a3ff",
+								["center_center"] = "0x4ad9a3ff",
+								["center_top"] = "0x4ad9a3ff",
+								["insets"] = {
+									["bottom"] = 1, ["left"] = 1,
+									["right"] = 1, ["top"] = 1,
+								},
+								["left_bottom"] = "0x4ad9a3ff",
+								["left_center"] = "0x4ad9a3ff",
+								["left_top"] = "0x4ad9a3ff",
+								["right_bottom"] = "0x4ad9a3ff",
+								["right_center"] = "0x4ad9a3ff",
+								["right_top"] = "0x4ad9a3ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["FillDown"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = { ["h"] = 1, ["w"] = 14, ["x"] = 12, ["y"] = 154 },
+				["enabled"] = true,
+				["pivotPoint"] = { ["x"] = 0, ["y"] = 0 },
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 0,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = { ["bottom"] = 0 },
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x4ad9a3ff",
+								["center_center"] = "0x4ad9a3ff",
+								["center_top"] = "0x4ad9a3ff",
+								["insets"] = {
+									["bottom"] = 1, ["left"] = 1,
+									["right"] = 1, ["top"] = 1,
+								},
+								["left_bottom"] = "0x4ad9a3ff",
+								["left_center"] = "0x4ad9a3ff",
+								["left_top"] = "0x4ad9a3ff",
+								["right_bottom"] = "0x4ad9a3ff",
+								["right_center"] = "0x4ad9a3ff",
+								["right_top"] = "0x4ad9a3ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["ZeroMark"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = { ["h"] = 2, ["w"] = 14, ["x"] = 12, ["y"] = 153 },
+				["enabled"] = true,
+				["pivotPoint"] = { ["x"] = 0, ["y"] = 0 },
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 11,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = { ["bottom"] = 0 },
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x000000ff",
+								["center_center"] = "0x000000ff",
+								["center_top"] = "0x000000ff",
+								["insets"] = {
+									["bottom"] = 1, ["left"] = 1,
+									["right"] = 1, ["top"] = 1,
+								},
+								["left_bottom"] = "0x000000ff",
+								["left_center"] = "0x000000ff",
+								["left_top"] = "0x000000ff",
+								["right_bottom"] = "0x000000ff",
+								["right_center"] = "0x000000ff",
+								["right_top"] = "0x000000ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["Cap"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = { ["h"] = 3, ["w"] = 14, ["x"] = 18, ["y"] = 118 },
+				["enabled"] = true,
+				["pivotPoint"] = { ["x"] = 0, ["y"] = 0 },
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 12,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = { ["bottom"] = 0 },
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0x4ad9a3ff",
+								["center_center"] = "0x4ad9a3ff",
+								["center_top"] = "0x4ad9a3ff",
+								["insets"] = {
+									["bottom"] = 1, ["left"] = 1,
+									["right"] = 1, ["top"] = 1,
+								},
+								["left_bottom"] = "0x4ad9a3ff",
+								["left_center"] = "0x4ad9a3ff",
+								["left_top"] = "0x4ad9a3ff",
+								["right_bottom"] = "0x4ad9a3ff",
+								["right_center"] = "0x4ad9a3ff",
+								["right_top"] = "0x4ad9a3ff",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+		["Tick"] = {
+			["params"] = {
+				["angle"] = 0,
+				["bounds"] = { ["h"] = 4, ["w"] = 21, ["x"] = 5, ["y"] = 118 },
+				["enabled"] = true,
+				["pivotPoint"] = { ["x"] = 0, ["y"] = 0 },
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = false,
+				["zindex"] = 10,
+			},
+			["skin"] = {
+				["params"] = {
+					["insets"] = { ["bottom"] = 0 },
+					["name"] = "staticSkin",
+				},
+				["states"] = {
+					["released"] = {
+						[1] = {
+							["bkg"] = {
+								["center_bottom"] = "0xffffffcc",
+								["center_center"] = "0xffffffcc",
+								["center_top"] = "0xffffffcc",
+								["insets"] = {
+									["bottom"] = 1, ["left"] = 1,
+									["right"] = 1, ["top"] = 1,
+								},
+								["left_bottom"] = "0xffffffcc",
+								["left_center"] = "0xffffffcc",
+								["left_top"] = "0xffffffcc",
+								["right_bottom"] = "0xffffffcc",
+								["right_center"] = "0xffffffcc",
+								["right_top"] = "0xffffffcc",
+							},
+						},
+					},
+				},
+			},
+			["type"] = "Static",
+		},
+	},
+	["params"] = {
+		["bounds"] = { ["h"] = 241, ["w"] = 30, ["x"] = 60, ["y"] = 200 },
+		["clipResizeCursor"] = false,
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = false,
+		["layout"] = {
+		},
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["headerHeight"] = 0,
+			["name"] = "windowSkin_ME",
+		},
+		["skins"] = {
+			["header"] = {
+				["skinData"] = {
+					["params"] = { ["hasCloseButton"] = false },
+				},
+			},
+		},
+		["states"] = {
+			["released"] = {
+				[1] = {
+					["bkg"] = { ["center_center"] = "0x00000000" },
+				},
+			},
+		},
+	},
+	["type"] = "Window",
+}
