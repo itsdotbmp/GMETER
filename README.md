@@ -68,7 +68,7 @@ If the colours are not using the ones you changed it to, then you may have misse
 ## Licence and stuff
 No warranty, express or implied. It is a script that draws a rectangle, but it runs on your machine. If it breaks something, that is on you. Read the source to figure out how it works. Report bugs on github.
 
-GMETER is released under the GNU General Public License v3.0 only. See [LICENSE](LICENSE.md).
+GMETER is released under the GNU General Public License v3.0 only. See [LICENSE](LICENSE).
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details. Use it at your own risk.
 
